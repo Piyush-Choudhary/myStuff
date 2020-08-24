@@ -1,0 +1,15 @@
+    
+box1{
+    background-color: grey;
+    border: 2px solid black;
+    width:30%;
+    float: left;
+    font-size: 10px;
+    
+
+}
+content1{
+border: 2px solid black;
+float: right;
+
+}
