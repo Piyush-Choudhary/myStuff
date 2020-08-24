@@ -1,15 +1,92 @@
     
-box1{
+body{
+    text-align: center;
+    padding-right: 10px;
+}
+#box1,#box2,#box3{
     background-color: grey;
-    border: 2px solid black;
-    width:30%;
+    border: 1px solid black;
+    width:31%;
     float: left;
-    font-size: 10px;
-    
-
+    text-align: left;
+    margin: 10px;
+    padding:0px 0px 0px 10px ;
 }
-content1{
-border: 2px solid black;
+
+#content1{
+border: 1px solid black;
 float: right;
+position: relative;
+margin: 0px 0px 10px 0px;
+padding: 5px 50px 5px 50px;
+background-color: #ee82ee;
+font-weight: bold;
 
 }
+
+#content2{
+    border: 1px solid black;
+    float: right;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 50px 5px 50px;
+    background-color: #ff0000;
+    font-weight: bold;
+
+    }
+
+    #content3{
+        border: 1px solid black;
+        float: right;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+        padding: 5px 50px 5px 50px;
+        background-color: #ffa500;
+        font-weight: bold;
+
+        }
+p{
+
+    padding:10px;
+    margin: 40px 10px 10px 10px;
+}
+@media (min-width:768px ) and (max-width:991px) {
+#box1,#box2{
+    width:46%;
+    margin: 10px;
+    padding:0px 0px 0px 10px ;
+
+}
+#box3{
+    width: 97%;
+}
+
+}
+@media (min-width:768px ) and (max-width:825px) {
+    #box1,#box2{
+        width:45.5%;
+        margin: 10px;
+        padding:0px 0px 0px 10px ;
+    
+    }
+    #box3{
+        width: 97%;
+    }
+    
+    }
+@media (min-width:992px ) {
+#box1,#box2,#box3{
+    width: 29%;
+    margin: 10px;
+    padding:0px 0px 0px 10px ;
+}
+
+}
+@media (max-width:767px ) {
+    #box1,#box2,#box3{
+        width: 97%;
+        margin: 10px;
+        padding:0px 0px 0px 10px ;
+    }
+    
+    }
