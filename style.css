@@ -1,92 +1,100 @@
-    
 body{
-    text-align: center;
-    padding-right: 10px;
+  
+    
+    font-family: "Sniglet", sans-serif;
 }
-#box1,#box2,#box3{
+#navbar-header{
+    background-color: grey;
+    border: 2px solid black;
+   
+}
+#navbar-header a{
+    color: black;
+    ;
+   
+}
+/* .navbar-brand:hover {
+    color: black;
+    background-color: transparent;
+} */
+#brand a{
+    color: black;
+}
+.navbar-toggler{
+    color: black;
+    border: 5px solid black;
+    padding: 10px;
+    width: 50px;
+}
+.col-md-12 col, .col-sm-12 ,.col-xs-12{
+    background-color: grey;
+    margin: 20px; 
+    padding: 10px;
+    border: 0px;
+    max-width: 97%;
+    
+}
+ /* .col-sm-9 ,.col-xs-9{
+    background-color: grey;
+    margin: 20px; 
+    padding: 10px;
+    border: 0px;
+    max-width: 90% ;
+    
+} */
+.navbar-toggler-icon{
+    color: black;
+}
+#header-nav{
+    width: auto;
     background-color: grey;
     border: 1px solid black;
-    width:31%;
-    float: left;
-    text-align: left;
-    margin: 10px;
-    padding:0px 0px 0px 10px ;
-}
-
-#content1{
-border: 1px solid black;
-float: right;
-position: relative;
-margin: 0px 0px 10px 0px;
-padding: 5px 50px 5px 50px;
-background-color: #ee82ee;
-font-weight: bold;
 
 }
-
-#content2{
-    border: 1px solid black;
-    float: right;
-    position: relative;
-    margin: 0px 0px 0px 0px;
-    padding: 5px 50px 5px 50px;
-    background-color: #ff0000;
-    font-weight: bold;
-
-    }
-
-    #content3{
-        border: 1px solid black;
-        float: right;
-        position: relative;
-        margin: 0px 0px 0px 0px;
-        padding: 5px 50px 5px 50px;
-        background-color: #ffa500;
-        font-weight: bold;
-
-        }
-p{
-
-    padding:10px;
-    margin: 40px 10px 10px 10px;
+#button{
+    width: 15px;
+    height: 10px;
 }
-@media (min-width:768px ) and (max-width:991px) {
-#box1,#box2{
-    width:46%;
-    margin: 10px;
-    padding:0px 0px 0px 10px ;
+#header-nav p{
+margin: 0px;
+padding: 20px;
+text-align: left;
+font-size: 2em;
+font-weight: bolder;
+}
+#navbar-toggler{
 
+border:1px solid black ;
 }
-#box3{
-    width: 97%;
-}
-
-}
-@media (min-width:768px ) and (max-width:825px) {
-    #box1,#box2{
-        width:45.5%;
-        margin: 10px;
-        padding:0px 0px 0px 10px ;
-    
-    }
-    #box3{
-        width: 97%;
-    }
-    
-    }
-@media (min-width:992px ) {
 #box1,#box2,#box3{
-    width: 29%;
     margin: 10px;
-    padding:0px 0px 0px 10px ;
+    padding: 20pxS;
+    max-width: 50%;
+}
+#menu1,#menu2,#menu3{
+padding: 0px;
+text-align: center;
+}
+#contentone,#contenttwo,#contentthree{
+
+text-align: left;
+padding: 10px;
+}
+#nav-list { 
+    background: white; 
+    max-width: 100%;
+}
+#nav-list a{
+color: black;
+text-align: center;
+}
+#nav-list a span{
+        font-size: 1.8em;
 }
 
+.nabar{
+    padding: 0px;
 }
-@media (max-width:767px ) {
-    #box1,#box2,#box3{
-        width: 97%;
-        margin: 10px;
-        padding:0px 0px 0px 10px ;
-    }
-    
-    }
+#myNavbar a{
+    border: 1px solid black;
+}
